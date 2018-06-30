@@ -1,17 +1,17 @@
 
 
-.static-container {
+.staticContainer {
     background-color: red;
     height: 200px;
     width: 100px;
 }
 
-.static-nav {
+.staticNav {
     background-color: red;
     font-size: 2em;
 }
 
-.sliding-container {
+.slidingContainer {
     background-color: skyblue;
     height: 200px;
     width: 200px;
@@ -20,7 +20,7 @@
     left: 100px;
 }
 
-.sliding-nav {
+.slidingNav {
     background-color: skyblue;
     font-size: 2em;
     padding-top: 40px;
