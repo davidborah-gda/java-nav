@@ -1,25 +1,41 @@
 
-.sliding-container {
-    width: 400px;
-    height: 100vh;
-    background-color: skyblue;
-}
 
 .static-container {
-    width: 200px;
-    height: 100vh;
-    background-color: violet;
-}
-
-.sliding-nav {
-    width: 400px;
-    height: 100vh;
-    background-color: skyblue;
+    background-color: red;
+    height: 200px;
+    width: 100px;
 }
 
 .static-nav {
+    background-color: red;
+    font-size: 2em;
+}
+
+.sliding-container {
+    background-color: skyblue;
+    height: 200px;
     width: 200px;
-    height: 100vh;
-    background-color: violet;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.sliding-nav {
+    background-color: skyblue;
+    font-size: 2em;
+    padding-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.hidden {
+    left: -200px;
+}
+
+.open {
+    position: relative;
+    left: 30px;
 }
 
