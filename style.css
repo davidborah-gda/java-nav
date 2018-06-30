@@ -1,0 +1,25 @@
+
+.sliding-container {
+    width: 400px;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.static-container {
+    width: 200px;
+    height: 100vh;
+    background-color: violet;
+}
+
+.sliding-nav {
+    width: 400px;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.static-nav {
+    width: 200px;
+    height: 100vh;
+    background-color: violet;
+}
+
