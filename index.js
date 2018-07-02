@@ -1,4 +1,4 @@
-const modal = {
+const javaNav = {
     isHidden: true,
     init() {
       this.cacheDom();
@@ -6,15 +6,15 @@ const modal = {
       this.render();
     },
     cacheDom() {
-      this.openBtn = document.querySelector('.close');
+      this.openBtn = document.querySelector('.openBtn');
+      this.slidingContainer = document.querySelector('.slidingContainer')
     },
     bindEventListeners() {
       this.openBtn.addEventListener('click', this.slideNav.bind(this));
     },
   
     slideNav(evt) {
-      this.isHidden = false;
-      this.clickedArrow = evt.target.openBtn;
+      this.isHidden = !(this.isHidden)
       this.render();
     },
   
@@ -26,6 +26,6 @@ const modal = {
       }
     },
   };
-  modal.init();
+javaNav.init();
   
-  window.modal = modal;
+  window.javaNav = javaNav;
